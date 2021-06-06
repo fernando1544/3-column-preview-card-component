@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | 3-column preview card component</title>
+  <!-- CSS Calling -->
+  <link rel="stylesheet" href="colors.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  
-  Sedans
-  Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-  or on your next road trip.
+  <div class="container">  
+    <div class="row justify-content-center ">
+      <div class="box-card col-md bg-1">
+        <h1 class="title-box"> Sedans </h1>
+        <p class="text-box"> Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip. </p>    
+        <a class="btn white-button-personalized" href="#">Learn more</a>          
+      </div>  
+      
+      <div class="box-card col-md bg-2">
+        <h1 class="title-box">SUVs</h1>
+        <p class="text-box">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>  
+        <a class="btn white-button-personalized" href="#">Learn more</a>
+      </div>  
+      
+      <div class="box-card col-md bg-3 ">
+        <h1 class="title-box"> Luxury </h1>
+        <p class="text-box"> Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style. </p>
+        <a class="btn white-button-personalized" href="#">Learn more</a>
+      </div>  
+    </div>
+   </div>
 
-  SUVs
-  Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-  and off-road adventures.
-
-  Luxury
-  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-  rental and arrive in style.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>

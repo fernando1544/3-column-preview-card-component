@@ -1,0 +1,57 @@
+body,p {
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Big Shoulders Display', cursive;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-weight: 700;
+}
+
+.white-button-personalized{
+    background-color:hsla(0, 0%, 100%, 0.75)!important;
+    color: rgb(65, 63, 63)!important;
+    border-radius: 30px!important;
+    padding: 8px 35px 8px 35px!important;
+    font-weight: 300;
+}
+
+.bg-1{
+    background-color: hsl(31,77%,52%)!important;
+}
+
+.bg-2{
+    background-color: hsl(184, 100%, 22%)!important;
+}
+
+.bg-3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.title-box{
+    padding: 15px 0px 10px 0px;
+}
+
+.text-box{
+    padding: 0px 0px 15px 0px;
+}
+
+.box-card{
+    padding: 80px 50px!important;
+}
+
+/* 
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%) 
+
+*/
