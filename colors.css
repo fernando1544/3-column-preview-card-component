@@ -10,12 +10,21 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 }
 
+i{
+    font-size: 3.5em!important;
+    color: rgb(0, 0, 0);
+}
+
 .white-button-personalized{
     background-color:hsla(0, 0%, 100%, 0.75)!important;
     color: rgb(65, 63, 63)!important;
-    border-radius: 30px!important;
-    padding: 8px 35px 8px 35px!important;
+    border-radius: 50px!important;
     font-weight: 300;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.bg-primary > h2,p , .bg-secondary > h2,p , .bg-tertiary > h2,p {
+    color: white;
 }
 
 .bg-1{
